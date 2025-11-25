@@ -1,0 +1,14 @@
+[
+  {
+    "dishId": 1,
+    "dishName": "Pizza",
+    "imageUrl": "http://localhost:5000/public/images/pizza.png",
+    "isPublished": true
+  },
+  {
+    "dishId": 2,
+    "dishName": "Veg Burger",
+    "imageUrl": "http://localhost:5000/public/images/vegburger.png",
+    "isPublished": false
+  }
+]
