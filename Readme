@@ -12,3 +12,54 @@ Toggle Published / Unpublished status
 View image previews
 
 Maintain a clean dish database with real-time UI updates after actions
+
+Dish/
+│
+├── backend/
+│   ├── public/
+│   │   └── images/           # Your custom dish images
+│   ├── src/
+│   │   ├── config/db.js
+│   │   ├── models/Dish.js
+│   │   ├── routes/dishRoutes.js
+│   │   ├── routes/imagesRoutes.js
+│   │   ├── seed/dishes.json
+│   │   ├── seed/seedDishes.js
+│   │   └── server.js
+│   ├── package.json
+│   └── .env
+│
+└── frontend/
+    ├── public/fallback-image.png
+    ├── src/
+    │   ├── components/DishCard.jsx
+    │   ├── components/AddDish.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── services/api.js
+    ├── index.html
+    ├── vite.config.js
+    └── package.json
+
+
+Features
+✔ Backend
+MongoDB database for storing dish records
+REST API built with Express.js
+Routes for:
+Get all dishes
+Add a new dish
+Toggle publish/unpublish
+Fetch available images
+Static file serving for dish images
+Seed script to populate database
+
+✔ Frontend
+Built using React + Vite
+Dashboard to display all dishes
+Add dish form with:
+Image dropdown
+Preview of selected image
+Publish/unpublish checkbox
+Publish toggle button with immediate updates
+Fallback image support
