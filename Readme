@@ -1,0 +1,14 @@
+Dish Dashboard — Full Stack Project (MERN)
+
+A full-stack dish management dashboard built using MongoDB, Express.js, React, Node.js (MERN).
+This project allows users to:
+
+View all dishes
+
+Add new dishes using images stored in the backend
+
+Toggle Published / Unpublished status
+
+View image previews
+
+Maintain a clean dish database with real-time UI updates after actions
